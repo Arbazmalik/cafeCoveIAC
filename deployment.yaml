@@ -25,20 +25,20 @@ spec:
       targetPort: 8081
       nodePort: 30009
 
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: frontend-app
-  labels:
-    app: frontend-app
-    name: frontend
-spec:
-  containers:
-    - name: frontend-app
-      image: arbazmalik/cafe-frontend:latest
-      ports:
-        - containerPort: 4200
+# ---
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: frontend-app
+#   labels:
+#     app: frontend-app
+#     name: frontend
+# spec:
+#   containers:
+#     - name: frontend-app
+#       image: arbazmalik/cafe-frontend:latest
+#       ports:
+#         - containerPort: 4200
 
 ---
 apiVersion: v1
