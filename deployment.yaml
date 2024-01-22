@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: backend-app
-      image: arbazmalik/cafe-backend:latest
+      image: arbazmalik/cafe-backend:10
       ports:
         - containerPort: 8081
 
